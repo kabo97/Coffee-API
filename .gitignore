@@ -1,0 +1,9 @@
+# Ignore Terraform state and cache files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+crash.log
+
+# Ignore large binary files
+*.zip
